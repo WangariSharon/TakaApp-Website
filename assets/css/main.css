@@ -1,0 +1,330 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: 'Muli', sans-serif;
+	width: 100%;
+
+}
+/*@media screen and (min-width: 300px) {
+    body {
+        font-family: 'Muli', sans-serif;
+        text-align: center;
+    }
+
+    #home{
+    	background: url(../images/Nature-pictures-21.png);
+    }
+
+@media screen and (min-width: 300px){
+	#home{
+	background: url(../images/Nature-pictures-21.png);
+	background-attachment: fixed;
+}
+}*/
+
+
+header{
+	background-color: rgba(255,185,15,0.9);
+	position: fixed;
+	width: 100%;
+	min-height: 70px;
+	top: 0;
+	bottom: 0;
+	z-index: -1000;
+}
+/*Start Home*/
+
+#home{
+	background: url(../images/Nature-pictures-21.png);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	min-height: 630px;
+}
+/*End Home*/
+
+/*start pages*/
+.pages ul{
+	text-align: right;
+	padding: 60px 40px 0 0;
+}
+.pages ul li{
+	display: inline;
+	padding: 10px 10px;
+}
+
+.pages ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	color: rgba(255,255,255,0.8);
+}
+
+.pages ul li a:hover{
+	color: rgba(255,165,0,0.8);
+}
+/*End pages*/
+
+/*Start Text in Homepage*/
+#home h1{
+	/*color: rgba(255,255,255,0.9);*/
+	color:rgba(255,185,15,0.9);
+	text-align: center;
+	margin: 130px 0 0 0; 
+	font-size: 80px;
+}
+
+p#About_Taka{
+	text-align: center;
+	margin: 20px 0 0 0;
+	color: rgba(255,255,255,0.9);
+	font-size: 19px;
+	line-height: 1.5em;
+}
+/*End Text in Home Page*/ 
+
+/*Start the team section*/
+
+div#team{
+	background-color: #f6f8f9;
+	border: 1px solid transparent;
+	min-height: 540px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+div#team h1{
+	padding: 40px 0 0 0;
+	text-align: center;
+}
+
+#team img{
+	margin: 20px 13px;
+	border: 20px solid rgba(139,139,139,0.1);
+	border-radius: 50%
+}
+
+.team_profile{
+	float: left;
+	border: 1px solid transparent;
+	width: 267.3px;
+	text-align: center;
+}
+
+#facebook a{
+	color:rgba(0,0,0,0.9);
+	font-size: 18px;
+	margin: 0 5px 0 0;
+}
+
+#twitter a{
+	color:rgba(0,0,0,0.9);
+	font-size: 18px;
+}
+
+#facebook a:hover{
+	color: #3b5998;
+}
+
+#twitter a:hover{
+	color: #55acee;
+}
+
+p.motto{
+	text-align: center;
+	font-style: italic;
+	margin-top: 60px;
+	padding-bottom: 20px; 
+}
+
+/*End the team section*/
+
+/*start contact section*/
+
+div#contact{
+	background: url(../images/world-map-dotted-black.png) #fafafa;
+	background-size: cover;
+	margin: 20px 0 20px 0;
+	min-height:630px;
+}
+div.contact_text{
+	text-align: center;
+	color: rgba(255,255,255,0.8);
+	border: 1px solid transparent;
+	text-align: center;
+
+}
+
+h1 span.feedback{
+	color: rgba(255,255,255,0.9);
+	font-style: italic;
+	font-size: 0.6em;
+}
+
+h1 span.just_me{
+	font-size: 1.6em;
+}
+
+div.contact_text p{
+	margin: 70px 0 0 0;
+}
+
+div.form_holder{
+	border: 1px solid transparent;
+	float: left;
+	margin: 20px 0 0 160px;
+}
+
+form input{
+	padding: 20px 200px 20px 10px;
+	margin: 10px 100px 10px 0px;
+	border-radius: 5px;
+	border-width: 1px;
+	color: #888383;
+}
+
+textarea{
+	width: 480px;
+	padding: 10px 0px 175px 20px;
+	margin: 28px 100px 10px 0px;
+	border-radius: 5px; 
+	color: #888383;
+}
+
+div.submit_two a{
+	text-decoration: none;
+	color: rgba(255,255,255,0.8);
+}
+
+div.submit_two{
+	width: 100px;
+	padding: 10px 4px 10px 4px;
+	margin: 20px 200px 20px 20px;
+	/*background: -moz-linear-gradient(
+			#dde4f0,
+			#fff,
+			#e6ecf4,
+			 
+		);*/
+	background: rgba(50,50,50,0.7);
+	/*background: linear-gradient(
+			45deg, #dde4f0 0%,
+			#e5ebf4 70%, 
+			#e4ebf4 60%, 
+			#e6ebf4 50%);*/
+	border: 1px solid #cacccf;
+	text-align: center;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	border-radius: 6px 6px 6px 6px;
+	/*border-radius: 50%;*/
+	float: right;
+}
+
+div.submit_two:hover{
+	background-color: rgba(50,50,50,0.9);
+}
+
+/*End contact section*/
+
+/*Back to Top*/
+#toTop{
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	overflow: hidden;
+	width: 44px;
+	height: 44px;
+	border: none;
+	text-indent: 100%;
+	background: url(../images/to_Top.png) no-repeat right top;
+}
+
+/*Adjusting syling for screens with less width than 500px*/
+
+@media screen and (max-width: 500px) {
+
+	.pages ul{
+		text-align: center;
+	}
+
+	#home h1{
+		text-align: center; 
+		font-size: 50px;
+	}
+
+	p#About_Taka{
+		font-size: 17px;
+	}
+
+	div.form_holder{
+		border: 1px solid transparent;
+		margin: 20px 0 0 120px;
+	}
+
+	form input{
+		padding: 20px 35px 20px 10px;
+		margin: 10px 0px 10px 0px;
+	}
+	textarea{
+			width: 200px;
+			margin: 20px 0 0 120px;
+		}
+	div.submit_two{
+		margin: 20px 80px 20px 20px;
+		}
+
+	h1 span.feedback{
+		font-size: 0.4em;
+	}
+
+	h1 span.just_me{
+		font-size: 1.0em;
+	}
+  
+}
+
+/*End 500px screen styling*/
+
+/*Adjusting syles for screen less than 300px*/
+@media screen and (max-width: 300px) {
+
+	.pages ul{
+	text-align: right;
+	padding: 60px 20px 0 0;
+	}
+
+	.pages ul li a{
+		text-decoration: none;
+		font-size: 14px;
+		color: rgba(255,255,255,0.8);
+	}
+
+	#home h1{
+		margin: 50px 0 0 0; 
+	}
+
+	div.form_holder{
+		border: 1px solid transparent;
+		margin: 20px 0 0 20px;
+	}
+
+	form input{
+		margin: 10px 0px 10px 0px;
+	}
+	textarea{
+			margin: 20px 0 0 20px;
+		}
+
+	div#contact{
+		background: url(../images/world-map-dotted-black.png);
+	}
+	/*End less than 300px screen styling*/
+
+	@media screen and (min-width: 1024px){
+
+
+	}
+
+
+
